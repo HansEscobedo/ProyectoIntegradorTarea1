@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Titulo": "El Gran Gatsby",
+    "Autor": "F. Scott Fitzgerald",
+    "Categoria": "Novela",
+    "Precio": 1099,
+    "Cantidad": 6
+  },
+  {
+    "Id": 2,
+    "Titulo": "1984",
+    "Autor": "George Orwell",
+    "Categoria": "Novela",
+    "Precio": 1299,
+    "Cantidad": 6
+  },
+  {
+    "Id": 3,
+    "Titulo": "Cien a�os de soledad",
+    "Autor": "Gabriel Garc�a M�rquez",
+    "Categoria": "Novela",
+    "Precio": 1499,
+    "Cantidad": 33
+  }
+]

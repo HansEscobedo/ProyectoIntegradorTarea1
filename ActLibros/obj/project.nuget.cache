@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LetS7/KJlsD/fjX8vRnrY8d/n9MPui9IPvKOzPp6R02dYY34mmciEnfEBJq3o4hhyl8ghVGI19+XZU+My+HELA==",
+  "dgSpecHash": "goMFDU9zZJSzYs2PAHoBeCE+U4d+ztXnP8+IClDpG1MYJRE0KzqZOoV6tgQPf6X+FD2cxiN+W+9FWESYsrmufQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ActLibros\\ActLibros.csproj",
+  "projectFilePath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ActLibros\\ActLibros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HansE\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\HansE\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
