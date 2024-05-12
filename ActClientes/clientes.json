@@ -1,0 +1,17 @@
+[
+    {
+        "Nombre": "Juan",
+        "Rut": "12345678-9",
+        "Activo": 0
+    },
+    {
+        "Nombre": "Pedro",
+        "Rut": "20.320.451-2",
+        "Activo": 1
+    },
+    {
+        "Nombre": "Maria",
+        "Rut": "20.450.821-3",
+        "Activo": 1
+    }
+]

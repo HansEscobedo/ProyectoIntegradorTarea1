@@ -3753,11 +3753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ActClientes\\ActClientes.csproj",
+      "projectUniqueName": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ActClientes\\ActClientes.csproj",
       "projectName": "ActClientes",
-      "projectPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ActClientes\\ActClientes.csproj",
+      "projectPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ActClientes\\ActClientes.csproj",
       "packagesPath": "C:\\Users\\HansE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ActClientes\\obj\\",
+      "outputPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ActClientes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HansE\\AppData\\Roaming\\NuGet\\NuGet.Config",
