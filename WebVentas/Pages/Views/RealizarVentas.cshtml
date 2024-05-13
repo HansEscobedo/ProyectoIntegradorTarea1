@@ -1,0 +1,47 @@
+﻿@page
+@model libreria.Pages.RealizarVentaModel
+@{
+}
+
+<h2>Realizar Venta</h2>
+
+<form method="post">
+    <div>
+        <label for="cliente">Cliente:</label>
+        <select id="cliente" name="cliente">
+            @foreach (var cliente in Model.Clientes)
+            {
+                <option value="@cliente.Id">@cliente.Nombre</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <h3>Libros Disponibles</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Cantidad Disponible</th>
+                    <th>Precio</th>
+                    <th>Cantidad a Comprar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var libro in Model.Libros)
+                {
+                    <tr>
+                        <td>@libro.Titulo</td>
+                        <td>@libro.Cantidad</td>
+                        <td>@libro.Precio</td>
+                        <td>
+                            <input type="number" name="libros[@libro.Id]" min="0" max="@libro.Cantidad" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit">Realizar Venta</button>
+</form>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\WebVentas\\WebVentas.csproj": {}
+    "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\WebVentas\\WebVentas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\WebVentas\\WebVentas.csproj": {
+    "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\WebVentas\\WebVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\WebVentas\\WebVentas.csproj",
+        "projectUniqueName": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\WebVentas\\WebVentas.csproj",
         "projectName": "WebVentas",
-        "projectPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\WebVentas\\WebVentas.csproj",
+        "projectPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\WebVentas\\WebVentas.csproj",
         "packagesPath": "C:\\Users\\HansE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\WebVentas\\obj\\",
+        "outputPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\WebVentas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HansE\\AppData\\Roaming\\NuGet\\NuGet.Config",

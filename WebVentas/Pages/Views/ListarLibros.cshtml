@@ -1,0 +1,26 @@
+﻿@page
+@model libreria.pages.ListarLibrosModel
+@{
+}
+
+<h1>Lista de libros</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Titulo</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var libro in Model.Libros)
+        {
+            <tr>
+                <td>@libro.Id</td>
+                <td>@libro.Titulo</td>
+                <td>@libro.Precio</td>
+                <td>@libro.Cantidad</td>
+            </tr>
+        }
+    </tbody>
