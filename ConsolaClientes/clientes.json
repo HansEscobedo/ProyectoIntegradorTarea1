@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Juan",
+    "Rut": "20.345.543-2",
+    "Activo": 1
+  },
+  {
+    "Id": 2,
+    "Nombre": "Pepe",
+    "Rut": "19.123.321-1",
+    "Activo": 1
+  },
+  {
+    "Id": 3,
+    "Nombre": "Papu",
+    "Rut": "18.567.765-4",
+    "Activo": 1
+  }
+]

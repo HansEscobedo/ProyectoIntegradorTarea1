@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ConsolaClientes\\ConsolaClientes.csproj": {}
+    "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ConsolaClientes\\ConsolaClientes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ConsolaClientes\\ConsolaClientes.csproj": {
+    "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ConsolaClientes\\ConsolaClientes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ConsolaClientes\\ConsolaClientes.csproj",
+        "projectUniqueName": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ConsolaClientes\\ConsolaClientes.csproj",
         "projectName": "ConsolaClientes",
-        "projectPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ConsolaClientes\\ConsolaClientes.csproj",
+        "projectPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ConsolaClientes\\ConsolaClientes.csproj",
         "packagesPath": "C:\\Users\\HansE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\ConsolaClientes\\obj\\",
+        "outputPath": "C:\\Users\\HansE\\OneDrive\\Escritorio\\Universidad\\Cuarto semestre\\integrador\\Evaluacion1\\ConsolaClientes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HansE\\AppData\\Roaming\\NuGet\\NuGet.Config",
