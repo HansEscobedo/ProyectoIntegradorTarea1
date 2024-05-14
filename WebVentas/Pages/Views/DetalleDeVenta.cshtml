@@ -1,20 +1,42 @@
 ﻿@page
-@model MyApp.Namespace.DetalleDeVentaModel
+@model libreria.Pages.DetalleDeVentaModel
 @{
 }
+
 <h2>Detalle de Venta</h2>
 
 <form method="post">
-    <div>
-        <label for="libro">Libro:</label>
-        <select id="libro" name="libro">
+    <div class="form-group">
+        <label for="idLibro">Libro:</label>
+        <select id="idLibro" name="idLibro" class="form-control">
             @foreach (var libro in Model.Libros)
             {
                 <option value="@libro.Id">@libro.Titulo</option>
             }
         </select>
     </div>
-    <button type="submit">Agregar Libro</button>
+    <div class="form-group">
+        <label for="cantidad">Cantidad:</label>
+        <select id="cantidad" name="cantidad" class="form-control">
+            @for (int i = 1; i <= 10; i++)
+            {
+                <option value="@i">@i</option>
+            }
+        </select>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Agregar Libro</button>
 </form>
 
-<button>Terminar venta</button>
+<div class="mt-3">
+    <button type="button" class="btn btn-danger" onclick="terminarVenta()">Terminar Venta</button>
+</div>
+
+@section Scripts {
+    <script>
+        function terminarVenta() {
+            // Redireccionar al inicio o a la página deseada al cancelar la venta
+            window.location.href = "/Index";
+        }
+    </script>
+}
