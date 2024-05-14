@@ -1,0 +1,20 @@
+﻿@page
+@model MyApp.Namespace.DetalleDeVentaModel
+@{
+}
+<h2>Detalle de Venta</h2>
+
+<form method="post">
+    <div>
+        <label for="libro">Libro:</label>
+        <select id="libro" name="libro">
+            @foreach (var libro in Model.Libros)
+            {
+                <option value="@libro.Id">@libro.Titulo</option>
+            }
+        </select>
+    </div>
+    <button type="submit">Agregar Libro</button>
+</form>
+
+<button>Terminar venta</button>

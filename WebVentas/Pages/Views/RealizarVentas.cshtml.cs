@@ -10,45 +10,30 @@ namespace libreria.Pages
     public class RealizarVentaModel : PageModel
     {
         public List<Cliente> Clientes { get; set; }
-        public List<Libro> Libros { get; set; }
         public void OnGet()
         {
             using (var contexto = new ContextoLibreria())
             {
                 Clientes = contexto.Clientes.Where(c => c.Activo == 1).ToList();
-                Libros = contexto.Libros.ToList();
+                
             }
         }
 
-        public async Task<IActionResult> onPostAsync(int IdLibro, int Cantidad, int IdCliente)
+        public RedirectToPageResult OnPost(int cliente)
         {
-            using(var contexto = new ContextoLibreria())
+            using (var contexto = new ContextoLibreria())
             {
-                var libro = await contexto.Libros.FirstOrDefaultAsync(l => l.Id == IdLibro);
-                if(libro.Cantidad < Cantidad)
-                {
-                    TempData["Mensaje"] = "No hay suficiente stock";
-                    return RedirectToPage("RealizarVenta");
-                }
-                Venta venta = new Venta();
-                venta.Fecha = System.DateTime.Now;
-                venta.Detalles = new List<DetalleVenta>();
-                DetalleVenta detalle = new DetalleVenta();
-                detalle.IdVenta = venta.Id;
-                detalle.IdLibro = IdLibro;
-                detalle.Cantidad = Cantidad;
-                detalle.libro = libro;
-                venta.Detalles.Add(detalle);
-                venta.Total = libro.Precio * Cantidad;
-                contexto.Ventas.Add(venta);
-                Cliente cliente = await contexto.Clientes.FirstOrDefaultAsync(c => c.Id == IdCliente);
-                cliente.Ventas.Add(venta);
-                libro.Cantidad -= Cantidad;
-                await contexto.SaveChangesAsync();
-                TempData["Mensaje"] = "Venta realizada con éxito";
-                return RedirectToPage("RealizarVenta");
-
+                Cliente c = contexto.Clientes.Include(x=>x.Ventas).SingleOrDefault(x => x.Id == cliente);
+                Venta v = new Venta();
+                v.Fecha = System.DateTime.Now;
+                v.Total = 0;
+                contexto.Ventas.Add(v);
+                contexto.SaveChanges();
+                c.Ventas.Add(v);
+                contexto.SaveChanges();
+                return RedirectToPage("/Views/DetalleDeVenta", new { idVenta = v.Id });
             }
+            
         }
         
 

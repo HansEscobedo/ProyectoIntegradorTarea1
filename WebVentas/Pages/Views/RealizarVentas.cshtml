@@ -16,32 +16,5 @@
         </select>
     </div>
 
-    <div>
-        <h3>Libros Disponibles</h3>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Título</th>
-                    <th>Cantidad Disponible</th>
-                    <th>Precio</th>
-                    <th>Cantidad a Comprar</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var libro in Model.Libros)
-                {
-                    <tr>
-                        <td>@libro.Titulo</td>
-                        <td>@libro.Cantidad</td>
-                        <td>@libro.Precio</td>
-                        <td>
-                            <input type="number" name="libros[@libro.Id]" min="0" max="@libro.Cantidad" />
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
-
     <button type="submit">Realizar Venta</button>
 </form>
